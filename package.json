@@ -1,6 +1,7 @@
 {
   "name": "starbound-linter-lua",
   "main": "./lib/main",
+  "version": "1.0.1",
   "description": "Uses luajit to lint lua files, modified to help with starbound modding.",
   "license": "MIT",
   "repository": "https://github.com/C0bra5/starbound-linter-lua",
