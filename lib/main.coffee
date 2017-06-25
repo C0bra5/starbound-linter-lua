@@ -28,7 +28,7 @@ module.exports =
           stream: 'stderr'
           allowEmptyStderr: true
 
-        return helpers.exec(__dirname + "..\\..\\..\\\luajit\\luajit.exe", parameters, execOpts).then (output) ->
+        return helpers.exec(__dirname + "\\..\\..\\..\\luajit\\luajit.exe", parameters, execOpts).then (output) ->
           return helpers.parse(output, regex, filePath: textEditor.getPath()).map (error) ->
             error.type = 'Error'
             return error
