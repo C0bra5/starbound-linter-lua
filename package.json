@@ -1,7 +1,7 @@
 {
   "name": "starbound-linter-lua",
   "main": "./lib/main.js",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "description": "Uses lua parse to find errors in Lua 5.3 files.",
   "license": "MIT",
   "repository": "https://github.com/C0bra5/starbound-linter-lua",
